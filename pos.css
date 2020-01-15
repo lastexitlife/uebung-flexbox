@@ -30,7 +30,12 @@ section {
 	min-width: 10px;
 	padding: 1rem 0;
 	min-height: 300px;
-	display: block;
+	display: flex;
+	/*display flex verteilt elemente nebeneinander */
+	justify-content: space-around;
+	align-items: stretch;
+
+	background-color: #DE8F6E;
 }
 
 
@@ -42,10 +47,12 @@ section {
 
 .trolley-grey {
 	background: #7D7C84;
+	flex-grow: 1;
 }
 
 .sea-green {
 	background: #2D93AD;
+	flex-grow: 1;
 }
 
 .middle-red {
@@ -55,10 +62,12 @@ section {
 
 .black {
 	background: #000;
+	flex-grow: 1;
 }
 
 .orange {
 	background: orange;
+	flex-grow: 1;
 
 }
 
